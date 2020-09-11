@@ -1,4 +1,4 @@
-# Applied-Data-Science
+# Applied-Data-Science-R語言
 資料科學應用 (R and Python for Empirical  Analysis, Statistics and Econometrics)  
 
 [課程網址](https://github.com/HungHuaTien/Applied-Data-Science/)
