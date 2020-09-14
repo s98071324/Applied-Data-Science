@@ -3,9 +3,11 @@
 
 [課程網址](https://github.com/HungHuaTien/Applied-Data-Science/)
 
-修正版講義下載
+[吳漢銘老師的講義下載](http://www.hmwu.idv.tw/index.php/r-software)
 
-[課程ＦＢ社團](https://www.facebook.com/groups/333991434619070/)
+
 
 
 注意事項公告：
+
+[109-1資料科學Ｒ語言上課進度與內容]()
