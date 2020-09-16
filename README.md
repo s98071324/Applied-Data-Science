@@ -5,7 +5,7 @@
 
 [吳漢銘老師的講義下載](http://www.hmwu.idv.tw/index.php/r-software)
 
-
+[補充資料](https://drive.google.com/drive/folders/1vO_UpmCD4_PpOK9hEaMkf9wudY-SfLQ1?usp=sharing)
 
 
 注意事項公告：
