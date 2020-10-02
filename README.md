@@ -12,6 +12,8 @@
 
 注意事項公告：
 
+[座位表與修課名單](https://drive.google.com/file/d/1i6Xd9cjHrCOOACjGWYL2dYAI7Tdf0dEl/view?usp=sharing)
+
 [109-1資料科學Ｒ語言上課進度與內容](https://colab.research.google.com/drive/1nxvV34uin5uUV4GW66aQ5u9JtNWtsz93?usp=sharing)
 
 
