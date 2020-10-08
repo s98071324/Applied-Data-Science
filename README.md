@@ -1,9 +1,9 @@
 # Applied-Data-Science-R語言
 資料科學應用 (Empirical  Analysis, Statistics and Econometrics)  
 
-電子郵件/FB：BigflowerFrancis@gmail.com
+FB Messnager: Bigflower Francis
 
-[課程網址](https://github.com/HungHuaTien/Applied-Data-Science/)
+電子郵件：BigflowerFrancis@gmail.com
 
 [吳漢銘老師的講義下載](http://www.hmwu.idv.tw/index.php/r-software)
 
