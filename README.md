@@ -1,5 +1,5 @@
 # Applied-Data-Science-R語言
-資料科學應用 (Empirical  Analysis, Statistics and Econometrics)  
+資料科學應用 
 
 FB Messnager: Bigflower Francis
 
