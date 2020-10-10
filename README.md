@@ -5,7 +5,7 @@ FB Messnager: Bigflower Francis
 
 電子郵件：BigflowerFrancis@gmail.com
 
-[吳漢銘老師的講義下載](http://www.hmwu.idv.tw/index.php/r-software)
+[**吳漢銘老師「109-1-資料科學應用」課程網頁**](http://www.hmwu.idv.tw/web/SHU/)
 
 [補充資料](https://drive.google.com/drive/folders/1vO_UpmCD4_PpOK9hEaMkf9wudY-SfLQ1?usp=sharing)
 
