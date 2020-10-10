@@ -1,9 +1,8 @@
 # Data-Science-R
 109-1 資料科學應用課程 
 
-FB Messnager: Bigflower Francis
+[FB Messnager](https://www.facebook.com/bigflowertien)
 
-電子郵件：BigflowerFrancis@gmail.com
 
 [田弘華老師「109-1資料科學應用」補充說明](https://colab.research.google.com/drive/1nxvV34uin5uUV4GW66aQ5u9JtNWtsz93?usp=sharing)
 
