@@ -1,4 +1,4 @@
-# R for Data-Science 資料科學應用 
+# Applied Data Science資料科學-R語言
 
 [田弘華老師「109-1資料科學應用」補充說明](https://colab.research.google.com/drive/1nxvV34uin5uUV4GW66aQ5u9JtNWtsz93?usp=sharing)
 
