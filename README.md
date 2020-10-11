@@ -8,4 +8,4 @@
 
 
 
-～有事請聯絡BigflowerFranics@gmail.com信箱，有興趣歡迎加入課程[FB社團](https://www.facebook.com/groups/333991434619070/)。
+～有事請聯絡BigflowerFranics@gmail.com信箱，有興趣歡迎加入[FB社團](https://www.facebook.com/groups/333991434619070/)。
