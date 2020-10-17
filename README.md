@@ -12,6 +12,7 @@
 ### Github使用說明
 
 **請同學使用Github繳交作業與考試答案。**
+
 Github使用分成三個階段：註冊與登陸、建立課程專案、上傳作業檔案。
 
 **Stage 1: 註冊(Sign up)與登錄(Sign in)** [Github註冊影片](https://youtu.be/OaoTEVwooUA)
