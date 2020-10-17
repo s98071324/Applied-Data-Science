@@ -17,8 +17,8 @@ Github使用分成三個階段：註冊與登陸、建立課程專案、上傳�
 
 **Stage 1: 註冊(Sign up)與登錄(Sign in)** [Github註冊影片](https://youtu.be/OaoTEVwooUA)
 
-- 請同學先在Github平台註冊，之後全部都是登陸。
-- Github 註冊畫面時常更新，但重點只有一個：給平台Username、Email與Password這三個資訊，並在電郵收信確認註冊後，登陸平台即可使用。
+- 請同學先在Github平台註冊，之後全部都是登錄。
+- Github 註冊畫面時常更新，但重點只有一個：給平台Username、Email與Password這三個資訊，並在電郵收信確認註冊後，登錄平台即可使用。
 
 **Stage 2:建立課程專案（Repository）** [Github建立專案影片](https://youtu.be/udViinYUtr0)
 
