@@ -6,7 +6,7 @@
 [**業師：課程網頁**](http://www.hmwu.idv.tw/web/SHU/)
 
 
-～修課同學：有事請聯絡BigflowerFranics@gmail.com信箱，並自行加入或退出[FB社團](https://www.facebook.com/groups/333991434619070/)。
+～修課同學：有事請聯絡BigflowerFranics@gmail.com信箱，歡迎自行加入或退出[FB社團](https://www.facebook.com/groups/333991434619070/)。
 
 
 ### Github使用說明
