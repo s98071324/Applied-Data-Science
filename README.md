@@ -4,7 +4,7 @@
 
 [錄影、作業、考試等事項補充說明](https://colab.research.google.com/drive/1nxvV34uin5uUV4GW66aQ5u9JtNWtsz93?usp=sharing)
 
-～修課同學：有事請聯絡BigflowerFranics@gmail.com信箱，歡迎自行加入或退出[FB社團](https://www.facebook.com/groups/333991434619070/)。
+～修課同學：有事請聯絡bigflowerfrancis@gmail.com信箱，歡迎自行加入或退出[FB社團](https://www.facebook.com/groups/333991434619070/)。
 
 
 ### Github使用說明
