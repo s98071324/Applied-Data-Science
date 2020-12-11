@@ -1,0 +1,57 @@
+# 2020/12/11(五), 109學年第一學期 資料科學應用 R期中考
+
+學號: A106260044       姓名:黃麟凱 
+
+# (請依照規定)貼上執行程式碼及執行結果。
+詳見: R程式作業繳交方式
+http://www.hmwu.idv.tw/web/teaching/doc/R-how-homework.pdf
+
+> # ex1(a)
+> time_rule <- function(d){
++   no.study<-length(d)
++   a<-matrix(0,25,6)
++ >#ex2(a)
+錯誤: 未預期的 '>' in:
+"  a<-matrix(0,25,6)
+>"
+>     library(readxl)
+>   Score_109 <- read_excel("~/SHU.R/Score-109.xlsx")
+New names:
+* `` -> ...2
+* `` -> ...3
+>        head(Score_109,5)
+# A tibble: 5 x 3
+  `109-1 Department of Mathematics` ...2     ...3   
+  <chr>                             <chr>    <chr>  
+1 ID                                Calculus English
+2 No.1                              72       62     
+3 No.2                              88       97     
+4 No.3                              76       66     
+5 No.4                              89       51     
+>        tail(Score_109,5)
+# A tibble: 5 x 3
+  `109-1 Department of Mathematics` ...2  ...3 
+  <chr>                             <chr> <chr>
+1 No.71                             69    96   
+2 No.72                             51    100  
+3 No.73                             37    50   
+4 No.74                             33    92   
+5 No.75                             4     37   
+> > #ex2(b) 
+錯誤: 未預期的 '>' in ">"
+> score.table<- table(Score_109$...2 < 60,Score_109$...3<60) 
+>        score.table
+       
+        FALSE TRUE
+  FALSE    25   12
+  TRUE     20   19
+> >#ex2(c)
+錯誤: 未預期的 '>' in ">"
+>          my.cor<-((Score_109$Calculus)*(Score_109$English)/sqrt(Score_109$Calculus)*sqrt(Score_109$English))
+Error in sqrt(Score_109$Calculus) : 
+  non-numeric argument to mathematical function
+此外: Warning messages:
+1: Unknown or uninitialised column: `Calculus`. 
+2: Unknown or uninitialised column: `English`. 
+3: Unknown or uninitialised column: `Calculus`. 
+> 
