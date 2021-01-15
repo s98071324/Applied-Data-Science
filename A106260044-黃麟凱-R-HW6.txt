@@ -1,0 +1,118 @@
+2020/12/18(五), 109學年第一學期 資料科學應用 R作業(6)
+
+學號: A106260044       姓名: 黃麟凱
+
+# (請依照規定)貼上執行程式碼及執行結果。
+詳見: R程式作業繳交方式
+http://www.hmwu.idv.tw/web/teaching/doc/R-how-homework.pdf
+
+> > # ex2.9(a)
+>   set.seed(12345)
+> number <- sample(0:100, 1000, replace=T)
+> n <- length(number)
+> count.f <- 0
+> for(i in 1:n){
++   if(number[i]%%2 == 0){
++     count.f <- count.f + 1
++     if(count.f == 100){      
++       cat("location: ", i, "\n") 
++       cat("even number: ", number[i], "\n")
++       break;
++     }
++   }
++ }
+location:  212 
+even number:  62 
+> # ex2.9(b)
+> i <- 0
+> count.r <- 0
+> repeat{
++   i <- i + 1
++   if(number[i]%%2 == 0){
++     count.r <- count.r + 1
++     if(count.r == 100){
++       cat("location: ", i, "\n") 
++       cat("even number: ", number[i], "\n")
++       break;
++     }
++   }
++ }
+location:  212 
+even number:  62 
+> # ex2.9(c)
+> i <- 0
+> count.w <- 0
+> while(i <= n){
++   i <- i + 1
++   if(number[i]%%2 == 0){
++     count.w <- count.w + 1
++     if(count.w == 100){
++       cat("location: ", i, "\n") 
++       cat("even number: ", number[i], "\n")
++       break;
++     }
++   }
++ }
+location:  212 
+even number:  62 
+> # ex2.53
+> names(mtcars)
+ [1] "mpg"  "cyl"  "disp"
+ [4] "hp"   "drat" "wt"  
+ [7] "qsec" "vs"   "am"  
+[10] "gear" "carb"
+> apply(mtcars[, c("disp", "hp", "drat", "wt", "qsec")], 2, 
++       function(x){ tapply(x, mtcars["cyl"], mean)}) 
+      disp        hp     drat
+4 105.1364  82.63636 4.070909
+6 183.3143 122.28571 3.585714
+8 353.1000 209.21429 3.229286
+        wt     qsec
+4 2.285727 19.13727
+6 3.117143 17.97714
+8 3.999214 16.77214
+> # ex2.62(a)
+> sample(c("剪刀", "石頭", "布"), 1)
+[1] "石頭"
+> # ex2.62(b)
+> cat("請輸入你要出的拳頭(a: 剪刀, b: 石頭, c: 布, d: 不玩了):")
+請輸入你要出的拳頭(a: 剪刀, b: 石頭, c: 布, d: 不玩了):
+> input <- scan(what="character", quiet=T, nmax=1)
+1: player <- switch(input, a="剪刀", b="石頭", c="布", d="不玩了")
+> cat("玩家出:", player, "\n")
+Error in cat("玩家出:", player, "\n") : 找不到物件 'player'
+> # ex2.62(c)
+> game <- function(){
++   cat("### 剪刀石頭布遊戲開始###\n")
++   
++   repeat{
++     cat("請輸入你要出的拳頭(a: 剪刀, b: 石頭, c: 布, d: 不玩了):")
++     input <- scan(what="character", quiet=T, nmax=1)
++     player <- switch(input, a="剪刀", b="石頭", c="布", d="不玩了")
++     computer <- sample(c("剪刀", "石頭", "布"), 1)  
++     
++     if(player == "不玩了"){
++       cat("謝謝再會!\n")
++       break
++     }else{
++       if((computer=="剪刀" & player=="布") | 
++          (computer=="石頭" & player=="剪刀") |
++          (computer=="布" & player=="石頭")){
++         result <- "輸"
++       }else if(computer==player){
++         result <- "平手"
++       }else{
++         result <- "贏"
++       }
++       cat("電腦出[", computer,"], 你出[", player, "], 你[", result, "]了!\n")
++     }
++   }
++ }
+> set.seed(12345)
+> game()
+### 剪刀石頭布遊戲開始###
+請輸入你要出的拳頭(a: 剪刀, b: 石頭, c: 布, d: 不玩了):
+1: 
+Error in switch(input, a = "剪刀", b = "石頭", c = "布", d = "不玩了") : 
+  EXPR 必須是長度為 1 的向量
+> 
