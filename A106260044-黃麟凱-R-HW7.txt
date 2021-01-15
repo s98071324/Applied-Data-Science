@@ -1,0 +1,68 @@
+2020/1/8(五), 109學年第一學期 資料科學應用 R作業(7)
+
+學號:        姓名: 
+
+# (請依照規定)貼上執行程式碼及執行結果。
+詳見: R程式作業繳交方式
+http://www.hmwu.idv.tw/web/teaching/doc/R-how-homework.pdf
+
+
+>   # ex2.51(a)
+>   for(i in 1:3){
++     text <- gregexpr(LETTERS[i], "AAABBBCCCC")
++     cat(paste0(length(text[[1]]), LETTERS[i]))
++   }
+3A3B4C
+>   # ex2.51(b)
+>   for(i in seq(1, 6, 2)){
++     no <- substr("3A3B4C", i, i)
++     char <- substr("3A3B4C", i+1, i+1)
++     cat(paste0(rep(char, no), collapse=""))
++   }
+AAABBBCCCC
+>   # ex2.52
+>   compress <- function(input){
++     for(i in 1:3){
++       text <- gregexpr(LETTERS[i], input)
++       cat(paste0(length(text[[1]]), LETTERS[i]))
++     }
++     cat("\n")
++   }
+>   compress("ABAABBAABCCCAC")
+6A4B4C
+>   # ex5.2(a)
+>   set.seed(123456)
+>   ball <- c("白球", "紅球")
+>   bag <- rep(ball, c(6, 4))
+>   s <- sample(bag, 3)
+>   table(s)
+s
+白球 紅球 
+   2    1 
+>   # ex5.2(b)
+>   Draw_Ball <- function(){
++     ball <- c("白球", "紅球")
++     bag <- rep(ball, c(6, 4))
++     ans <- sample(bag, 3)
++     table(factor(ans, levels=ball))
++   }
+>   set.seed(123456)
+>   DrawResult <- as.data.frame(t(replicate(10, Draw_Ball())))
+>   DrawResult
+   白球 紅球
+1     2    1
+2     2    1
+3     2    1
+4     1    2
+5     2    1
+6     2    1
+7     1    2
+8     2    1
+9     2    1
+10    1    2
+>   # ex5.2(c)
+>   n <- 100
+>   set.seed(123456)
+>   DrawResult <- as.data.frame(t(replicate(n, Draw_Ball())))
+>   sum((DrawResult$白球==2) & (DrawResult$紅球==1))/n
+[1] 0.51
